@@ -27,7 +27,6 @@ function activityNotifications(expenditure, d) {
         if (i < d) {
             trail.push(expenditure[i]);
         } else if (i === d) {
-            console.log('trail', trail, 'limit', findLimit(trail), 'num', expenditure[i])
             fraud = isFraud(expenditure[i], findLimit(trail));
             if (fraud) {
                 numNotices += 1;
@@ -35,14 +34,12 @@ function activityNotifications(expenditure, d) {
         } else if (i > d) {
             trail.shift();
             trail.push(expenditure[i - 1]);
-            console.log('trail', trail, 'limit', findLimit(trail), 'num', expenditure[i])
             fraud = isFraud(expenditure[i], findLimit(trail));
             if (fraud) {
                 numNotices += 1;
             }
         }
     }
-    console.log(numNotices)
     return numNotices;
 }
 

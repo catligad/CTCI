@@ -13,12 +13,9 @@ const moveDown = (grid, position) => {
     let newPosition = grid[position[0] + 1][position[1]];
     if (newPosition === '') {
       return [position[0]+1, position[1]];
-    } else {
-      return false;
     }
-  } else {
-    return false;
   }
+  return false;
 }
 
 const robotInAGrid = (grid, position) => {

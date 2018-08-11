@@ -1,4 +1,0 @@
-#1: Flip a binary tree (left side to right side and vice versa)
-#2: Live troubleshooting on computer (essentially just a simple HackerRank challenge and pre-written tests that I had to pass). Focusing on class pattern and inheritance in JS
-#3: Design UI and backend system for location tracking service that children can check their phone to see where their parents are
-#4: Reverse a string (constrains: space O(n) -> space O(1) -> recursive -> functional programming (reduce in JS))"
