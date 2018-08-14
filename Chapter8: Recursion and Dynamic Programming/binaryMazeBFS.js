@@ -74,6 +74,7 @@ const explore = (currentLocation, direction, grid) => {
 
 const binaryMaze = (maze, start, end) => {
   //setting the end for the maze
+  debugger
   maze[end[0]][end[1]] = 3;
 
   let location = {

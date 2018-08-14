@@ -1,4 +1,3 @@
-// Complete the arrayManipulation function below.
 function arrayManipulation(n, queries) {
   let array = new Array(n);
   queries.forEach(query => {

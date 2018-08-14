@@ -1,4 +1,4 @@
-//I: arr of unsorted integers, no duplicates
+//I: arr of unsorted integers ( from 1 - n), no duplicates
 //O: minumum number of swaps needed to create an ordered arr
 
 function swap(arr, i, j) {
