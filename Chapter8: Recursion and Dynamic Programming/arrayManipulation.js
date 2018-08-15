@@ -1,6 +1,7 @@
 function arrayManipulation(n, queries) {
   let array = new Array(n);
   queries.forEach(query => {
+    debugger
       if (array[query[0] - 1] == null) {
           array[query[0] - 1] = query[2];
       } else {
