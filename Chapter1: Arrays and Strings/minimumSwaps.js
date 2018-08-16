@@ -1,6 +1,7 @@
 //I: arr of unsorted integers ( from 1 - n), no duplicates
 //O: minumum number of swaps needed to create an ordered arr
 
+
 function swap(arr, i, j) {
   let temp = arr[j];
   arr[j] = arr[i];
@@ -8,7 +9,6 @@ function swap(arr, i, j) {
 }
 
 function minimumSwaps(arr) {
-  debugger
   let count = 0;
   for (let i = 0; i < arr.length; i++) {
       if (arr[i] !== i + 1 && arr[i] <= arr.length) {
