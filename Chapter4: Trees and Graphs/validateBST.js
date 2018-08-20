@@ -21,11 +21,11 @@ leaf7.left = leaf6;
 leaf7.right = leaf8;
 
 function validateBST(bst, numbers) {
+  debugger
   let current = bst;
   let toReturn;
   while(current) {
-    if (!numbers
-      [current.value]) {
+    if (!numbers[current.value]) {
       numbers[current.value] = true;
     } else {
       return false;
